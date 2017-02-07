@@ -19,6 +19,7 @@ function readEnv(key, defaultVal) {
 var config = {
   username: readEnv('CARELINK_USERNAME'),
   password: readEnv('CARELINK_PASSWORD'),
+  carelinkURL: readEnv('CARELINK_URL'),
   nsHost: readEnv('WEBSITE_HOSTNAME'),
   nsBaseUrl: readEnv('NS'),
   nsSecret: readEnv('API_SECRET'),
